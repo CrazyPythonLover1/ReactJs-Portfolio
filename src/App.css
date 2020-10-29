@@ -1,10 +1,14 @@
-.App {
-  text-align: center;
+.button{
+  border: 1px solid #241b2f;
+  border-radius: 5px;
+  padding: 5px 20px 7px 20px !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button:hover{
+  background: #241b2f;
+  color: white !important;
+}
+.link:hover{
+  text-decoration: none !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {
