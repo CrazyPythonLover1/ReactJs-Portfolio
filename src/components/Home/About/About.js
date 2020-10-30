@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import profilePic from '../../../images/Github-profile-pic.png'
+import resumeSrc from '../../../images/Resume of MD. MAINUL ISLAM.pdf';
 import GetAppIcon from '@material-ui/icons/GetApp';
 
 const About = () => {
@@ -33,7 +34,7 @@ const About = () => {
                             </div>
                             <div className=" col col-md-6 col-sm-12 download">
                             <p>
-                                <a href="" className=" download-button "> <GetAppIcon/> Download Resume</a>
+                                <a href={resumeSrc} className=" download-button " download > <GetAppIcon/> Download Resume</a>
                   </p>
                             </div>
                         </div>

@@ -35,6 +35,7 @@ const Resume = () => {
                 <div className="col-md-9">
                 {education}
                 </div>
+                
             </div>
         </section>
     );

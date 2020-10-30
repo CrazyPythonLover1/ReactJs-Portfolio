@@ -61,6 +61,7 @@
 .nav-button:hover{
     background: #00ffd5;
     color: #000 !important;
+    font-weight: bold;
   }
 
 @media only screen and (min-width: 1024px) {
