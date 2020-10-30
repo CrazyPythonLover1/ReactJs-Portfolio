@@ -28,6 +28,11 @@ header{
     letter-spacing: -2px;
     text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
+.animated-text{
+    color: #00ffd5;
+    font-size: 80px;
+    line-height: 1;
+}
 
 
 
@@ -70,16 +75,33 @@ ul{
     color: #00ffd5;
  }
 
- @media only screen and (max-width: 767px) {
-    .banner-text .headline{
-        font: 70px/1.1em 'opensans-bold', sans-serif;
+ @media only screen and (max-width: 1350px){
+    .animated-text{
+        font-size: 60px;
+        line-height: 1;
     }
-    
-}
+ }
+
+ @media only screen and (max-width: 969px){
+    .animated-text{
+        font-size: 40px;
+        line-height: 1;
+    }
+ }
+
+
 
 @media only screen and (max-width: 556px) {
     .banner-text .headline{
-        font: 50px/1.1em 'opensans-bold', sans-serif;
+        font: 40px/1.1em 'opensans-bold', sans-serif;
+    }
+    .animated-text{
+        font-size: 30px;
+        line-height: 1;
+    }
+
+    ul{
+        display: none;
     }
     
 }

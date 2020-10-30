@@ -7,13 +7,13 @@ const About = () => {
     return (
         <section className="about" >
             <div className="container-fluid">
-                <div className="row">
-                    <div className="col-md-3">
-                        <img className="profile" src={profilePic} alt="" />
+                <div className="row px-3 " style={{maxWidth: "1300px",margin: "auto"}}>
+                    <div className="col col-md-3 d-flex justify-content-center">
+                        <img className="profile mb-4" src={profilePic} alt="" />
                     </div>
-                    <div className="col-md-9">
+                    <div className="col col-md-9 pl-3">
                         <h2> About Me </h2>
-                        <p>I am a professional Web Developer & designer with 2 years of experience. I
+                        <p className="text-justify">I am a professional Web Developer & designer with 2 years of experience. I
                         have completed two long term course on "Python and Django Full Stack Web
                         Development" from Udemy and "Complete Web Development Course With
                         Jhankar Mahbub" from Programming Hero. As my profession and career object
@@ -31,9 +31,9 @@ const About = () => {
                                     <span> mainulislamfaruqi@gmail.com </span>
                                 </p>
                             </div>
-                            <div className="col-md-6 download">
+                            <div className=" col col-md-6 col-sm-12 download">
                             <p>
-                                <a href="" className=" download-button"> <GetAppIcon/> Download Resume</a>
+                                <a href="" className=" download-button "> <GetAppIcon/> Download Resume</a>
                   </p>
                             </div>
                         </div>

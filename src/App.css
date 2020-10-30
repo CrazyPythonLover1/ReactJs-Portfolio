@@ -12,3 +12,18 @@
   text-decoration: none !important;
   font-weight: 600;
 }
+
+@media only screen and (max-width: 767px) {
+  .banner-text .headline{
+      font: 60px/1.1em 'opensans-bold', sans-serif;
+  }
+  .navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #241b2f;
+    box-shadow: 0px 0px 5px 2px #0f0815;
+    
+  }
+  
+}

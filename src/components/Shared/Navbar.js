@@ -1,14 +1,32 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import {Link} from "react-router-dom";
 import './Navbar.css';
 
 const Navbar = () => {
+    const [scrolled, setScrolled] = useState(false);
+    const handleScroll = () => {
+        const offset = window.scrollY;
+        if(offset > 200){
+            setScrolled(true);
+        }
+        else{
+            setScrolled(false);
+        }
+    }
+
+    useEffect(() =>{
+        window.addEventListener('scroll', handleScroll)
+    })
+    let navbarClasses= [''];
+    if(scrolled){
+        navbarClasses.push('scrolled');
+    }
     return (
-        <div className="navbar-container">
-            <nav className="navbar navbar-expand-md navbar-light navbar-wrap ">
-                <Link style={{textDecoration:"none"}}  to="/"><a className="navbar-brand" href="home"> Mainul Islam</a> </Link>
-                <button className="navbar-toggler toggle-btn-color" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon "></span>
+        <div  className={`navbar-container ${navbarClasses.join(" ")}`} >
+            <nav  className="navbar navbar-expand-md  navbar-wrap ">
+                <Link style={{textDecoration:"none"}}  to="/"><a className="navbar-brand brand-name" href="home"> Mainul Islam</a> </Link>
+                <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon toggle-btn-color "></span>
                 </button>
                 <div className="collapse navbar-collapse " id="navbarNav">
                     <ul className="navbar-nav ml-auto">
