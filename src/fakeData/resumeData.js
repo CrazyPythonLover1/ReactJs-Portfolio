@@ -18,7 +18,7 @@ const resumeData =[
             "school": " Udemy",
             "degree": " Python and Django Full Stack Web Development",
             "graduated": "MAR 2019 - SEP 2019",
-            "description": "Learning technology: HTML, CSS, Bootstrap,  JavaScript, JQuery, Python, OOP concept, Django"
+            "description": "Learned technology: HTML, CSS, Bootstrap,  JavaScript, JQuery, Python, OOP concept, Django, Django Blog & Social Media projects"
           },
         ],
         "work": [

@@ -30,21 +30,36 @@ const Resume = () => {
     return (
         <section id="resume">
             <div className="container-fluid">
-            <div className="row education" style={{maxWidth: "1300px",margin: "auto"}}>
-                <div className="col-md-3 header-col">
-                    <h1> <span> Education </span></h1>
+                <div className="row education" style={{maxWidth: "1300px",margin: "auto"}}>
+                    <div className="col-md-3 header-col">
+                        <h1> <span> Education </span></h1>
+                    </div>
+
+                    <div className="col-md-9 main-col">
+                        <div className="row">
+                            <div className="col-md-12">
+                                {education}
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
 
-                <div className="col-md-9 main-col">
-                    <div className="row">
-                        <div className="col-md-12">
-                            {education}
-                        </div>
+                <div className="row work" style={{maxWidth: "1300px",margin: "auto"}}>
+                    <div className="col-md-3 header-col">
+                        <h1> <span> work </span></h1>
                     </div>
-                    
+
+                    <div className="col-md-9 main-col">
+                        <div className="row">
+                            <div className="col-md-12">
+                                {work}
+                            </div>
+                        </div>
+                        
+                    </div>
                 </div>
-                
-            </div>
+
             </div>
             
         </section>

@@ -1,3 +1,10 @@
+
+h1, h2, h3, h4, h5, h6 {
+  color: #313131;
+ font-family: 'opensans-bold', sans-serif;
+  font-weight: normal;
+}
+
 .button{
   width: 100px;
   border: 2px solid #00ffd5;
