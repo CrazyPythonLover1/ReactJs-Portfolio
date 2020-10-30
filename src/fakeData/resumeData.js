@@ -83,7 +83,41 @@ const resumeData =[
               "name": "Mysql",
               "level": "60%"
             }
+          ],
+
+          "projects": [
+            {
+              "title": "Creative Agency -A Selling Website",
+              "category": "It's look like Amazone built with ReactJS",
+              "image": "Creative-agency.png",
+              "url": "https://creative-agency-mern-stack.web.app/"
+            },
+            {
+              "title": "ReactJS Amazone Clone",
+              "category": "Amazone Clone built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS)",
+              "image": "amazon.png",
+              "url": "https://nifty-visvesvaraya-e8d8ba.netlify.app/"
+            },
+            {
+              "title": "Facebook Clone with ReactJS",
+              "category": "Facebook Clone built with ReactJS",
+              "image": "Facebook.png",
+              "url": "https://gracious-wiles-cb6d6f.netlify.app/"
+            },
+            {
+              "title": "Doctors Portal -A Clinic Management System ",
+              "category": "MERN Stack",
+              "image": "doctors-portal.png",
+              "url": "https://doctors-portal-mern-stack.web.app/"
+            },
+            {
+              "title": "Volunteer Network -A Event Manager",
+              "category": "MERN STACT PROJECT",
+              "image": "volunteer.png",
+              "url": "https://volunteer-network-59df7.web.app/"
+            }
           ]
+
     },
 ]
 
