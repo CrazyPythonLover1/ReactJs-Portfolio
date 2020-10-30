@@ -1,3 +1,8 @@
+.navbar-container {
+    position: absolute;
+    width: 100%;
+}
+
 .navbar-wrap{
     padding-left: 40px;
     padding-right: 40px;

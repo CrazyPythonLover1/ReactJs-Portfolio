@@ -1,0 +1,45 @@
+.about {
+    background: #262335;
+    padding-top: 96px;
+    padding-bottom: 66px;
+ }
+
+ .profile {
+     position: relative;
+     width: 220px;
+     height: 220px;
+ }
+
+ .about h2 {
+    font: 22px/30px 'opensans-bold', sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+ }
+
+ .about p {
+    line-height: 30px;
+    color: #7A7A7A;
+ }
+
+ .download{
+     width: 58px;
+     padding-top: 2rem;
+ }
+
+ .download-button{
+     color: white;
+     background-color: #211530;
+     padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+ }
+
+ .download-button:hover {
+    background: #fff;
+    color: #2B2B2B;
+ }
+
+ .MuiSvgIcon-root{
+     font-size: 20px;
+     margin-right: 15px;
+ }
