@@ -28,17 +28,23 @@
  }
 
  .download-button{
-     color: white;
      background-color: #211530;
-     padding: 15px 20px;
+     padding: 15px 15px;
     border-radius: 5px;
     font-weight: bold;
+    text-align: center;
  }
 
  .download-button:hover {
-    background: #fff;
-    color: #2B2B2B;
+    background-color: #fff;
+    color: #2B2B2B !important;
  }
+
+ .download-button:hover a{
+    color: #2B2B2B !important;
+    font-weight: bold;
+ }
+
 
  .MuiSvgIcon-root{
      font-size: 20px;

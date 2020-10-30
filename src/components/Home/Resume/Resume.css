@@ -48,8 +48,8 @@
 #resume .info {
     font-size: 1rem;
     font-style: italic;
-    font-family: 'opensans-bold';
-    color: #565a5e;
+    font-family: 'librebaskerville-italic', serif;
+    color: rgb(95, 103, 110);
     margin-bottom: 18px;
     margin-top: 9px;
 
@@ -66,5 +66,59 @@
 }
 
 #resume p{
-    color: #838c95;
+    color: #838C95;
+    font-family: 'Open Sans', sans-serif;
 }
+
+/* ----------------------- */
+/*  Skills Bar */
+/* ----------------------- */
+
+
+.bars{
+    width: 95%;
+    float: left;
+    padding: 0;
+    text-align: left;
+}
+
+.bars .skills{
+    margin-top: 36px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.bars li{
+    position: relative;
+    margin-bottom: 60px;
+    background: #ccc;
+    height: 42px;
+    border-radius: 5px;
+}
+
+.bars li em {
+    font-size: 15px;
+    font-weight: bold !important;
+    color: #313131;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    font-weight: normal;
+    position: relative;
+    top: -36px;
+}
+
+.bar-expand{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding-right: 24px;
+    background: #262335;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 3px 0 0 3px
+}
+
+

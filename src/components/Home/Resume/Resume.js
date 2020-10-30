@@ -32,7 +32,7 @@ const Resume = () => {
             <div className="container-fluid">
                 <div className="row education" style={{maxWidth: "1300px",margin: "auto"}}>
                     <div className="col-md-3 header-col">
-                        <h1> <span> Education </span></h1>
+                        <h1 className="pb-3" > <span> Education </span></h1>
                     </div>
 
                     <div className="col-md-9 main-col">
@@ -47,7 +47,7 @@ const Resume = () => {
 
                 <div className="row work" style={{maxWidth: "1300px",margin: "auto"}}>
                     <div className="col-md-3 header-col">
-                        <h1> <span> work </span></h1>
+                        <h1 className="pb-3" > <span> work </span></h1>
                     </div>
 
                     <div className="col-md-9 main-col">
@@ -59,6 +59,22 @@ const Resume = () => {
                         
                     </div>
                 </div>
+
+                <div className="row skill pt-5 " style={{maxWidth: "1300px",margin: "auto"}}>
+                    <div className="col-md-3 header-col">
+                        <h1 className="pb-3"> <span> Skills  </span></h1>
+                    </div>
+
+                    <div className="col-md-9 main-col">
+                        <p className="text-center pb-3 pt-3">
+                            {skillmessage}
+                        </p>
+                        <div className="bars">
+                            <ul className="skills">  {skills} </ul>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
             

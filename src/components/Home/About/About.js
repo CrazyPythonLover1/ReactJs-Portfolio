@@ -33,9 +33,9 @@ const About = () => {
                                 </p>
                             </div>
                             <div className=" col col-md-6 col-sm-12 download">
-                            <p>
-                                <a href={resumeSrc} className=" download-button " download > <GetAppIcon/> Download Resume</a>
-                  </p>
+                            <p  className=" download-button ">
+                                <a href={resumeSrc}  className="text-white"  download > <GetAppIcon/> Download Resume</a>
+                            </p>
                             </div>
                         </div>
                     </div>
