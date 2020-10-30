@@ -1,4 +1,5 @@
 import React from 'react';
+import './Resume.css';
 import resumeData from '../../../fakeData/resumeData'
 
 const Resume = () => {
@@ -27,16 +28,25 @@ const Resume = () => {
         </li>
     })
     return (
-        <section>
-            <div className="row education">
-                <div className="col-md-3">
+        <section id="resume">
+            <div className="container-fluid">
+            <div className="row education" style={{maxWidth: "1300px",margin: "auto"}}>
+                <div className="col-md-3 header-col">
                     <h1> <span> Education </span></h1>
                 </div>
-                <div className="col-md-9">
-                {education}
+
+                <div className="col-md-9 main-col">
+                    <div className="row">
+                        <div className="col-md-12">
+                            {education}
+                        </div>
+                    </div>
+                    
                 </div>
                 
             </div>
+            </div>
+            
         </section>
     );
 };

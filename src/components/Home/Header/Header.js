@@ -10,8 +10,8 @@ const Header = () => {
     return (
         <header> 
             <div  className="header container">
-                <div  className="row banner ">
-                    <div className="banner-text">
+                <div  className="row banner " >
+                    <div className="banner-text"  >
                         <h1 className="headline text-center">
                              I'm{''}
                             <span className="animated-text" > 

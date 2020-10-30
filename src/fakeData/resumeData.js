@@ -3,11 +3,23 @@ const resumeData =[
         "skillmessage": " This is my core skill that I have learnt for 2 years. A self-taught Software Developer ",
         "education": [
           {
-            "school": "Habibulla Bahar University",
+            "school": "Habibullah Bahar University ",
             "degree": "BA in English Literature",
-            "graduated": "December 2021",
-            "description": "Will be graduated 2021"
-          }
+            "graduated": "SEP 2021",
+            "description": ""
+          },
+          {
+            "school": " Programming Hero ",
+            "degree": " Complete Web Development Course With Jhankar Mahbub",
+            "graduated": "JUN 2020 - DEC 2020",
+            "description": " Here are the skills that I have learned from this course: HTML, CSS, Bootstrap4, React-Bootstrap, JavaScript, ES6, Chrome DEV Tools, ReactJS, Material-ui, NodeJS, ExpressJS, MongoDB, OOP, Data Structure, Algorithm"
+          },
+          {
+            "school": " Udemy",
+            "degree": " Python and Django Full Stack Web Development",
+            "graduated": "MAR 2019 - SEP 2019",
+            "description": "Learning technology: HTML, CSS, Bootstrap,  JavaScript, JQuery, Python, OOP concept, Django"
+          },
         ],
         "work": [
           {
