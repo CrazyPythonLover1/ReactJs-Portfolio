@@ -1,14 +1,16 @@
 .button{
-  border: 1px solid #241b2f;
+  width: 100px;
+  border: 2px solid #00ffd5;
   border-radius: 5px;
   padding: 5px 20px 7px 20px !important;
 }
 .button:hover{
-  background: #241b2f;
-  color: white !important;
+  background: #00ffd5;
+  color: #000 !important;
 }
 .link:hover{
   text-decoration: none !important;
+  font-weight: 600;
 }
 
 @media (prefers-reduced-motion: no-preference) {
