@@ -21,7 +21,7 @@ const Header = () => {
                              steps={[
                                 'Mainul Islam',
                                 1000,
-                                'a Frontend Developer 💻',
+                                'a Frontend Engineer 💻',
                                 1000,
                                 'a React Developer 🥰',
                                 1000,
