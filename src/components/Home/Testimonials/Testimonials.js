@@ -16,7 +16,7 @@ const Testimonials = () => {
     return (
         <section id="testimonials">
             <div className="container-fluid text-container">
-                <div className="row">
+                <div className="row"  style={{maxWidth: "1300px",margin: "auto"}}>
                     <div className="col-md-2 header-col">
                         <h1> <FormatQuoteIcon className="quote-icon" /><span> Client Testimonials </span></h1>
                     </div>

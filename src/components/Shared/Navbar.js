@@ -24,7 +24,7 @@ const Navbar = () => {
     }
     return (
         <div  className={`navbar-container ${navbarClasses.join(" ")}`} >
-            <nav  className="navbar navbar-expand-md  navbar-wrap ">
+            <nav  className="navbar navbar-expand-md  navbar-wrap "  style={{maxWidth: "1500px",margin: "auto"}}>
                 <Link style={{textDecoration:"none"}}  to="/"><a className="navbar-brand brand-name" href="home"> Mainul Islam</a> </Link>
                 <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon toggle-btn-color "></span>
