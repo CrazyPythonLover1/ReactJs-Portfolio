@@ -1,14 +1,30 @@
 import React from 'react';
 import './Contact.css';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('gmail', 'template_q47xkq4', e.target, 'user_n88EK52R0Rnv7dMJfAWUO')
+          .then((result) => {
+              if(result){
+                  alert("your message successfully sent!")
+              }
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset()
+      }
     return (
         <section id="contact">
             <div className=" container-fluid px-md-5 pl-md-5">
                 <div className="row"  style={{maxWidth: "1300px",margin: "auto"}}>
                     
                     <div className="col-md-8 col-sm-12 ">
-                        <form  className="contact-form " action="" >
+                        <form  className="contact-form " action="" onSubmit={sendEmail} >
                             <div className="form-group">
 
 
@@ -17,7 +33,7 @@ const Contact = () => {
                                       required
                                 />
 
-                                <input type="email" name="name"
+                                <input type="email" name="email"
                                     placeholder="Your email address " id=""
                                       required
                                 />
@@ -27,7 +43,7 @@ const Contact = () => {
                                       required
                                 />
 
-                                <textarea type="text-area" name="description"
+                                <textarea type="text-area" name="message"
                                     placeholder=" Your message " id=""
                                       required
                                     rows="4" cols="38"
