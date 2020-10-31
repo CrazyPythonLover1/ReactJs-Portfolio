@@ -1,0 +1,37 @@
+#contact{
+    background: #262335;
+    padding-top: 96px;
+    padding-bottom: 102px;
+}
+
+.contact-form input, textarea{
+    width:100%;
+    height: 42px;
+    margin: 10px 0;
+    border-radius: 5px;
+    outline-width: 0;
+}
+
+.contact-form input::placeholder, textarea::placeholder{
+    color: #bbbbbb;;
+}
+
+.submit-button:hover {
+    background: #00ffd5 !important;
+    color: #000 !important;
+}
+
+.contact-details h2{
+    font-size: 1.2rem;
+    font-family: 'opensans-bold', sans-serif;
+    line-height: 24px;
+    color: #EBEEEE;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.contact-details p{
+    font-size: 15px;
+    line-height:30px;
+    color: #636363;
+}
