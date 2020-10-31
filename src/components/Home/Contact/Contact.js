@@ -50,6 +50,8 @@ const Contact = () => {
                                         border: "2px solid #64ffda",
                                         color: '#fff',
                                         fontWeight: 'bold',
+                                        textTransform: "uppercase",
+                                        letterSpacing:'2px'
                                     }}
                                 />
                             </div>
