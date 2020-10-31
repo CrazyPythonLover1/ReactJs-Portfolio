@@ -20,8 +20,9 @@ const Contact = () => {
       }
     return (
         <section id="contact">
-            <div className=" container-fluid px-md-5 pl-md-5">
-                <div className="row"  style={{maxWidth: "1300px",margin: "auto"}}>
+            <div className=" container-fluid">
+            <h2 className="text-white text-center pb-5" ><span style={{borderBottom:"2px solid #00ffd5",paddingBottom:"6px",fontSize:"1.2rem",letterSpacing:"2px", fontWeight:"bold",textTransform:"uppercase"}} >Get In Touch</span></h2>
+                <div className="row pl-4"  style={{maxWidth: "1300px",margin: "auto"}}>
                     
                     <div className="col-md-8 col-sm-12 ">
                         <form  className="contact-form " action="" onSubmit={sendEmail} >
@@ -45,7 +46,7 @@ const Contact = () => {
 
                                 <textarea type="text-area" name="message"
                                     placeholder=" Your message " id=""
-                                      required
+                                    required
                                     rows="4" cols="38"
                                     className="order-text-area  contact-text-area"
                                     style={{ height: " 160px", paddingTop: "15px" }}
@@ -62,8 +63,9 @@ const Contact = () => {
                                         background: "inherit",
                                         padding: " 0 50px 0 45px",
                                         width: "170px",
+                                        height: "42px",
                                         marginTop: "-10px",
-                                        border: "2px solid #64ffda",
+                                        border: "2px solid #00ffd5",
                                         color: '#fff',
                                         fontWeight: 'bold',
                                         textTransform: "uppercase",
@@ -75,14 +77,15 @@ const Contact = () => {
                         </form>
                     </div>
 
-                    <div className="col-md-4 contact-details">
+                    <div className="col-md-3 contact-details">
                                 <h2>Contact Details</h2>
                                 <p className="address">
                                     <span>  Md. Mainul Islam  </span><br />
                                     <span> 123 Fake Street<br />
-                                    Cumiila Bangladesh, ABC 123
+                                    Cumiila, Bangladesh
                                     </span><br />
                                     <span>+880 1871203061</span><br />
+                                    <span> mainulislamfaruqi@gmail.com </span>
                                    
                                 </p>
                             </div>
