@@ -8,9 +8,9 @@ const Portfolio = () => {
    
         const projects = resumeData[0].projects.slice(0,4).map(projects =>{
             var projectImage = require(`../../images/portfolio/${projects.image}`)
-            return <div key={projects.title} className=" col-md-3 columns portfolio-item">
+            return <div key={projects.title} className="col-lg-3 col-md-6 col-sm-6 columns portfolio-item">
                 <div className="item-wrap">
-                <a href="projects.url" title={projects.title}>
+                <a href={projects.url} title={projects.title}>
                     <img src={projectImage} alt={projects.title}  />
                     <div className="overlay">
                         <div className="portfolio-item-meta">

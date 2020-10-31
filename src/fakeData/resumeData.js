@@ -88,25 +88,25 @@ const resumeData =[
           "projects": [
             {
               "title": "Creative Agency -A Selling Website",
-              "category": "It's look like Amazone built with ReactJS",
+              "category": "Creative Agency built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Bootstrap, Firebase Authentication.",
               "image": "Creative-agency.png",
               "url": "https://creative-agency-mern-stack.web.app/"
             },
             {
-              "title": "ReactJS Amazone Clone",
+              "title": "Amazone Clone with React.js",
               "category": "Amazone Clone built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS)",
               "image": "amazon.png",
               "url": "https://nifty-visvesvaraya-e8d8ba.netlify.app/"
             },
             {
-              "title": "Facebook Clone with ReactJS",
-              "category": "Facebook Clone built with ReactJS",
+              "title": "Facebook Clone with React.js",
+              "category": "Facebook Clone built with ReactJS, ES6, HTML, CSS, Material-ui",
               "image": "Facebook.png",
               "url": "https://gracious-wiles-cb6d6f.netlify.app/"
             },
             {
               "title": "Doctors Portal -A Clinic Management System ",
-              "category": "MERN Stack",
+              "category": "Doctors Portal built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Bootstrap, Firebase Authentication, React-calendar, Popup Modal.",
               "image": "doctors-portal.png",
               "url": "https://doctors-portal-mern-stack.web.app/"
             },
