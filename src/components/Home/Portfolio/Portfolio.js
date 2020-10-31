@@ -1,13 +1,13 @@
 import React from 'react';
 import './Portfolio.css';
-import resumeData from '../../fakeData/resumeData';
+import resumeData from '../../../fakeData/resumeData';
 
 import LinkIcon from '@material-ui/icons/Link';
 
 const Portfolio = () => {
    
         const projects = resumeData[0].projects.slice(0,4).map(projects =>{
-            var projectImage = require(`../../images/portfolio/${projects.image}`)
+            var projectImage = require(`../../../images/portfolio/${projects.image}`)
             return <div key={projects.title} className="col-lg-3 col-md-6 col-sm-6 columns portfolio-item">
                 <div className="item-wrap">
                 <a href={projects.url} title={projects.title}>
