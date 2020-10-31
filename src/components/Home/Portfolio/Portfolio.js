@@ -26,9 +26,10 @@ const Portfolio = () => {
         })
     return (
         <section id="portfolio" className="container-fluid">
-            <div className="row">
+            <div className="row projects">
                 <div className="col-md-12 collapseed">
-                    <h1> Check Out Some of MY Works. </h1>
+                <h1 className="" > <span> projects </span></h1>
+                    <h1> Check Out Some of MY projects </h1>
                     <div id="portfolio-wrapper" className=" bgrid-quarters s-bgrid-thirds cf">
                         {projects}
                     </div>

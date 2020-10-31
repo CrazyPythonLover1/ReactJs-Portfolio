@@ -1,0 +1,86 @@
+#testimonials{
+    background: #262335 url(../../../images/testimonials-bg.jpg) no-repeat center ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#testimonials .text-container{
+    padding-top: 96px;
+    padding-bottom: 66px;
+}
+
+#testimonials h1{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'opensans-bold', 'sans-serif';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+#testimonials h1 span{
+    border-bottom: 3px solid #00ffd5;
+    padding-bottom: 6px;
+}
+
+#testimonials h1 span{ display: none;}
+
+#testimonials .header-col{ padding-top: 9px}
+
+#testimonials h1 .MuiSvgIcon-root{
+    font-size: 72px !important;
+}
+
+#testimonials h1 .quote-icon{
+    transform: rotate(180deg);
+    margin-left: 3rem;
+    margin-top: -1rem;
+
+}
+
+/*  Blockquotes */
+
+#testimonials blockquote{
+    margin: 0 0 40px 0;
+    padding-left: 0;
+    position: relative;
+    text-shadow: 0px 1px 3px #000000;
+}
+
+#testimonials blockquote:before { content: none; }
+
+#testimonials blockquote p{
+    font-family: serif;
+    font-style: italic;
+    padding: 0px;
+    font-size: 24px;
+    line-height: 48px;
+    color: #fff;
+}
+
+#testimonials blockquote cite{
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 18px;
+    color: #fff;
+}
+
+#testimonials blockquote cite span{
+    border-bottom: 1px solid #fff;
+    width:30px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    top: -12px;
+}
+#testimonials ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}

@@ -35,6 +35,24 @@ h1, h2, h3, h4, h5, h6 {
   .header-col{
     text-align: center;
   }
+
+  .social a {
+   margin: 0 5px !important;
+}
+
+.social .MuiSvgIcon-root{
+   font-size: 24px !important;
+}
+
+
+#testimonials h1 span{ display: inline-block !important; padding-bottom: 2rem;}
+
+
+#testimonials h1 .MuiSvgIcon-root{
+  display: none;
+}
+
+
   
 }
 
@@ -49,5 +67,10 @@ h1, h2, h3, h4, h5, h6 {
   .download-button{
     font-size: .7rem;
   }
+
+  .social a {
+    margin: 0 2px !important;
+ }
+ 
   
 }
