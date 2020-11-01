@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {Link} from "react-router-dom";
+import {Link,NavLink} from "react-router-dom";
 import './Navbar.css';
 import resumeSrc from '../../images/Resume of MD. MAINUL ISLAM.pdf';
 
@@ -31,11 +31,11 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse " id="navbarNav">
                     <ul className="navbar-nav ml-auto">
-                    <li className="nav-item active">
-                        <Link style={{textDecoration:"none"}} activeClassName="active" to="/"><a className="nav-link link mr-2 ml-2" href="home">Home <span className="sr-only">(current)</span></a></Link>
+                    <li className="nav-item ">
+                        <Link style={{textDecoration:"none"}} activeClassName="selected" to="/"><a className="nav-link link mr-2 ml-2" href="home">Home <span className="sr-only">(current)</span></a></Link>
                     </li>
                     <li className="nav-item">
-                        <Link style={{textDecoration:"none"}} to="/about"><a className="nav-link link mr-2 ml-2" href="about">About</a></Link>
+                        <Link activeClassName="selected" to="/about" >     <a className="nav-link link mr-2 ml-2" href="about">About</a> </Link>
                     </li>
                     <li className="nav-item">
                         <Link style={{textDecoration:"none"}} to="/"><a className="nav-link link mr-2 ml-2" href="works">Works</a></Link>

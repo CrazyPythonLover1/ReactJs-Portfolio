@@ -93,7 +93,7 @@
     position: relative;
     margin-bottom: 60px;
     background: #ccc;
-    height: 42px;
+    height: 28px;
     border-radius: 5px;
 }
 
@@ -114,9 +114,9 @@
     top: 0;
     margin: 0;
     padding-right: 24px;
-    background: #262335;
+    background: #463f61;
     display: inline-block;
-    height: 42px;
+    height: 28px;
     line-height: 42px;
     border-radius: 3px 0 0 3px
 }

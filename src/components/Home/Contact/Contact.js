@@ -81,8 +81,8 @@ const Contact = () => {
                                 <h2>Contact Details</h2>
                                 <p className="address">
                                     <span>  Md. Mainul Islam  </span><br />
-                                    <span> 123 Fake Street<br />
-                                    Cumiila, Bangladesh
+                                    <span> 
+                                    Dhaka, Bangladesh
                                     </span><br />
                                     <span>+880 1871203061</span><br />
                                     <span> mainulislamfaruqi@gmail.com </span>

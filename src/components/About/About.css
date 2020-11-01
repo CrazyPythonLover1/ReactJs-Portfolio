@@ -1,13 +1,58 @@
 #aboutpage{
     background: #262335;
-    
+    min-height: 100vh;
 }
 
 .about-container{
-    padding-top: 96px;
+    padding-top: 126px;
+    padding-bottom: 96px;
 }
 
-#aboutpage p {
+#aboutpage .aboutpage-text {
     line-height: 30px;
-    color: #7A7A7A;
+    color: #afafaf;
  }
+
+#aboutpage h3 span{
+     color: #00ffd5 !important;
+     font-size: 2rem;
+ }
+
+#aboutpage h4{
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#aboutpage h4 span{
+    border-bottom: 2px solid #00ffd5;
+    padding-bottom: 6px;
+}
+
+.skills{
+    color: #ebeaf5;
+}
+
+.skills h5 span{
+    color: #00ffd5;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+.language-skills span, .framework-skills span, .databases-skills span, .os-skills span, .deployment-skills span, .others-skills span, .familiar-skills span{
+    margin: 2px 2px;
+    padding: 5px 8px;
+    background: #44415a;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#aboutpage .language-skills .framework-skills .databases-skills  .os-skills .deployment-skills  .others-skills .familiar-skills {
+    
+}
+
+

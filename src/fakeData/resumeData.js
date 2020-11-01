@@ -44,75 +44,65 @@ const resumeData =[
         ],
         "skills": [
             {
-              "name": "ReactJs",
-              "level": "70%"
-            },
-            {
-              "name": "NodeJS",
-              "level": "65%"
-            },
-            {
-              "name": "ExpressJS",
-              "level": "65%"
-            },
-            {
-              "name": "MongoDB",
-              "level": "70%"
-            },
-            {
-              "name": "Django",
-              "level": "75%"
-            },
-            {
-              "name": "CSS",
-              "level": "85%"
-            },
-            {
-              "name": "Git",
-              "level": "60%"
-            },
-            {
-              "name": "Figma",
-              "level": "55%"
-            },
-            {
-              "name": "HTML5",
+              "name": "React.js | JavaScript | ES6",
               "level": "80%"
             },
             {
-              "name": "Mysql",
+              "name": "Node.js | Express.js | MongoDB ",
+              "level": "75%"
+            },
+            {
+              "name": "Python | Django",
+              "level": "75%"
+            },
+            {
+              "name": "MySQL | postgreSQL",
               "level": "60%"
-            }
+            },
+            {
+              "name": "HTML | CSS | Bootstrap4 | React-Bootstrap | Material-ui",
+              "level": "90%"
+            },
           ],
 
           "projects": [
             {
+              "titleHead": "A Selling Website",
               "title": "Creative Agency -A Selling Website",
-              "category": "Creative Agency built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Bootstrap, Firebase Authentication.",
+              "category": "Creative Agency built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Bootstrap, Material-ui, Firebase Authentication.",
+              "technology": ['React.js', 'Node.js', 'express.js', 'MongoDB', 'Bootstrap', 'CSS', 'Firebase'],
               "image": "Creative-agency.png",
               "url": "https://creative-agency-mern-stack.web.app/"
             },
             {
-              "title": "Amazone Clone with React.js",
-              "category": "Amazone Clone built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS)",
+              "titleHead": "Amazone Clone",
+              "title": "Amazone Clone -An E-commerce site",
+              "category": "Amazone Clone built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Redux, Stripe, Material-ui, ES6, HTML, CSS",
+              "technology": ['React.js', 'Material-ui', 'ES6','HTML', 'CSS', 'Firebase', 'React Router', 'Rudux'],
               "image": "amazon.png",
               "url": "https://nifty-visvesvaraya-e8d8ba.netlify.app/"
             },
             {
-              "title": "Facebook Clone with React.js",
-              "category": "Facebook Clone built with ReactJS, ES6, HTML, CSS, Material-ui",
+              "titleHead": "Facebook UI Clone",
+              "title": "Facebook UI Clone with React.js",
+              "category": "Facebook Clone built with React.js, ES6, Redux, Firebase, HTML, CSS, Material-ui",
+              "technology": ['React.js', 'ES6', 'Redux', 'Material-ui', 'Bootstrap', 'HTML', 'CSS', 'Firebase'],
               "image": "Facebook.png",
               "url": "https://gracious-wiles-cb6d6f.netlify.app/"
             },
             {
-              "title": "Doctors Portal -A Clinic Management System ",
+              "titleHead": "Clinic Management",
+              "title": "Doctors Portal -A Clinic Management ",
               "category": "Doctors Portal built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Bootstrap, Firebase Authentication, React-calendar, Popup Modal.",
+              "technology": ['React.js', 'Node.js', 'express.js', 'MongoDB', 'Material-ui', 'Bootstrap', 'CSS', 'Firebase'],
               "image": "doctors-portal.png",
               "url": "https://doctors-portal-mern-stack.web.app/"
             },
             {
-              "title": "Volunteer Network -A Event Manager",
-              "category": "MERN STACT PROJECT",
+              "titleHead": "An Event Management",
+              "title": "Volunteer Network -An Event Management S",
+              "category": "Volunteer Network built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Bootstrap, Material-ui, Firebase Authentication.",
+              
               "image": "volunteer.png",
               "url": "https://volunteer-network-59df7.web.app/"
             }
