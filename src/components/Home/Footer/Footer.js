@@ -7,7 +7,7 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className="container-fluid">
             <div className="row">
                 <div className="col-md-12">
                     <div className="social">
@@ -17,13 +17,13 @@ const Footer = () => {
                         <a href="https://www.instagram.com/mainul_islam_faruqi/"> <InstagramIcon/> </a>
                     </div>
 
-                    <p>
+                    {/* <p>
                           Modified with love by the Answarit team <span> ♥️ </span>  
-                    </p>
+                    </p> */}
 
                     <p className="copyright">
-                          &copy; All credit goes to Mainul Islam - Copyright 2020 Mainul Ialam   
-                          Developed by <a title="Styleshout" href="http://www..com/">Mainul Islam</a>   
+                          &copy;Copyright 2020 Mainul Ialam   
+                          Developed by <a title="Styleshout" href="/about">Mainul Islam</a>   
                     </p>
 
 

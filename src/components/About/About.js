@@ -3,6 +3,7 @@ import './About.css';
 import profilePic from '../../images/Github-profile-pic.png'
 import Navbar from '../Shared/Navbar';
 import Typical from 'react-typical'
+import Footer from '../Home/Footer/Footer';
 
 const About = () => {
     return (
@@ -226,6 +227,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </main>
     );
 };

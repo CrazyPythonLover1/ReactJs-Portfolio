@@ -8,6 +8,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkIcon from '@material-ui/icons/Link';
 
 import resumeData from '../../fakeData/resumeData';
+import Footer from '../Home/Footer/Footer';
 
 
 
@@ -38,7 +39,7 @@ const Work = () => {
             <Navbar />
             <section className="container-fluid px-sm-5">
                 <div className="work-container">
-                    <h2 className="text-white mb-4"> <span > My Works</span></h2>
+                    <h2 className="text-white mb-5"> <span > My Works</span></h2>
 
                     <div  className="project-container" >
 
@@ -97,6 +98,8 @@ const Work = () => {
                     </div>
                 </div>
             </section>
+
+            <Footer/>
         </main>
     );
 };

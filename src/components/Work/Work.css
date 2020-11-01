@@ -5,8 +5,14 @@
 
 .work-container{
     padding-top: 96px;
+    padding-bottom: 96px;
     max-width: 1100px;
     margin: auto;
+}
+
+h2 span{
+    border-bottom: 2px solid #00ffd5;
+    padding-bottom: 6px;
 }
 
 /* .MuiGrid-container{
