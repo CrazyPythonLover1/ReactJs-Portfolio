@@ -1,0 +1,91 @@
+#work{
+    background: #262335;
+    color: white;
+}
+
+.work-container{
+    padding-top: 96px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* .MuiGrid-container{
+    background: #241b2f;
+    margin-bottom: 2rem !important;
+    border-radius: 5px;
+} */
+.project-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #241b2f;
+    margin-bottom: 2rem;
+    border-radius: 5px !important;
+    position: relative;
+}
+
+.project-card div{
+    padding: .8rem 1rem;
+    
+}
+
+.project-card img{
+    min-height: 400px;
+}
+
+.button-group {
+    position: absolute;
+    display: flex;
+    right: .5rem;
+    bottom: .2rem; 
+}
+
+.button-group a, .MuiSvgIcon-root{
+    color: #fff;
+    font-size: 1.4rem !important;
+}
+
+.button-group a:hover .MuiSvgIcon-root{
+    color: #00ffd5;
+}
+
+.technology span{
+    background: #5c5875;
+    padding: 5px 7px;
+    margin: 2px 2px;
+    display: inline-block;
+    border-radius: 3px;
+    
+}
+
+.technology {
+    margin-left: 2rem;
+}
+
+.project-card:nth-child(even) img{
+    order: 2;
+}
+
+.project-card:nth-child(even) .button-group{
+        position: absolute;
+        display: flex;
+        left: .5rem;
+        bottom: .2rem;
+}
+
+@media only screen and (max-width: 770px){
+    .project-card{
+        display: block;
+    }
+    .project-card img{
+        min-height: 300px;
+    }
+    .button-group {
+        position: absolute;
+        display: flex;
+        left: .5rem;
+        bottom: .2rem; 
+    }
+
+    
+}
+

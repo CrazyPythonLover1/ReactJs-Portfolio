@@ -38,13 +38,13 @@ const Navbar = () => {
                         <Link activeClassName="selected" to="/about" >     <a className="nav-link link mr-2 ml-2" href="about">About</a> </Link>
                     </li>
                     <li className="nav-item">
-                        <Link style={{textDecoration:"none"}} to="/"><a className="nav-link link mr-2 ml-2" href="works">Works</a></Link>
+                        <Link style={{textDecoration:"none"}} to="/work"><a className="nav-link link mr-2 ml-2" href="works">Works</a></Link>
                     </li>
                     <li className="nav-item">
-                        <Link style={{textDecoration:"none"}} to="/"><a className="nav-link link mr-2 ml-2" href="works">Blog</a></Link>
+                        <Link style={{textDecoration:"none"}} to="/blog"><a className="nav-link link mr-2 ml-2" href="works">Blog</a></Link>
                     </li>
                     <li className="nav-item">
-                        <Link style={{textDecoration:"none"}} to="/"><a className="nav-link link mr-2 ml-2" href="works">Contact</a></Link>
+                        <Link style={{textDecoration:"none"}} to="/contact"><a className="nav-link link mr-2 ml-2" href="works">Contact</a></Link>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link ml-3" href={resumeSrc} download> <span className="nav-button "> Resume</span></a>

@@ -10,7 +10,7 @@ const About = () => {
             <Navbar />
             <div className="container-fluid about-container" style={{ maxWidth: "1300px", margin: "auto" }}>
                 <div className="row px-1">
-                    <div className="col-md-6 col-sm-12">
+                    <div className="col-md-6 col-sm-12 ml-3">
                         <img className="profile mb-4" src={profilePic} alt="" />
                         <h3 className=" ">
                             
@@ -52,7 +52,7 @@ const About = () => {
                         </div>
 
                     </div>
-                    <div className="col-md-5 col-sm-12 ml-3">
+                    <div className="col-md-5 col-sm-12 ml-3 mt-4">
 
                         <h4> <span>TECHNICAL SKILLS </span></h4>
                         <div className="skills">
@@ -170,6 +170,7 @@ const About = () => {
                                     <span> MySQL</span>
                                     <span> PostgreSQL </span>
                                     <span> Linux Shared Hosting </span>
+                                    <span> Chrome Dev Tool </span>
 
                                 </div>
 
@@ -204,6 +205,7 @@ const About = () => {
                                     <span> Data Structure </span>
                                     <span> Algorithm  </span>
                                     <span> React Native  </span>
+                                    <span> JQuery  </span>
                                     <span> Django REST FRAMEWORK </span>
                                     <span> REST API </span>
                                     <span> GraphQL </span>

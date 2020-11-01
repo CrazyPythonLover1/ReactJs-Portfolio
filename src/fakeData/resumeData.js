@@ -71,40 +71,56 @@ const resumeData =[
               "title": "Creative Agency -A Selling Website",
               "category": "Creative Agency built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Bootstrap, Material-ui, Firebase Authentication.",
               "technology": ['React.js', 'Node.js', 'express.js', 'MongoDB', 'Bootstrap', 'CSS', 'Firebase'],
+              "description":[
+                "Created a dashboard that is used to view ordered lists, make an admin & add service",
+                 "Order page & admin dashboard are separated from users and admin" ,
+                  "Users can place the order, give feedback & see only their ordered service list", 
+                  "Saving jwt token to the sessionStorage that can save user info after reloading" 
+              ],
               "image": "Creative-agency.png",
-              "url": "https://creative-agency-mern-stack.web.app/"
+              "url": "https://creative-agency-mern-stack.web.app/",
+              "github": "https://github.com/CrazyPythonLover1/CREATIVE-AGENCY-CLIENT",
             },
             {
-              "titleHead": "Amazone Clone",
-              "title": "Amazone Clone -An E-commerce site",
-              "category": "Amazone Clone built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Redux, Stripe, Material-ui, ES6, HTML, CSS",
+              "titleHead": "Amazon Clone",
+              "title": "Amazon Clone -An E-commerce site",
+              "category": "Amazon Clone built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Redux, Stripe, Material-ui, ES6, HTML, CSS",
               "technology": ['React.js', 'Material-ui', 'ES6','HTML', 'CSS', 'Firebase', 'React Router', 'Rudux'],
               "image": "amazon.png",
-              "url": "https://nifty-visvesvaraya-e8d8ba.netlify.app/"
+              "description":['Created add to cart, count selected cart item with reducer', " Google sign in method with firebase & designed with CSS",' selected item list and remove the item to the cart & count price with reducer ', 'Check out functionality with stripe'],
+              "url": "https://nifty-visvesvaraya-e8d8ba.netlify.app/",
+              "github":"https://github.com/CrazyPythonLover1/Amazon-Clone-React.js",
             },
             {
               "titleHead": "Facebook UI Clone",
               "title": "Facebook UI Clone with React.js",
               "category": "Facebook Clone built with React.js, ES6, Redux, Firebase, HTML, CSS, Material-ui",
               "technology": ['React.js', 'ES6', 'Redux', 'Material-ui', 'Bootstrap', 'HTML', 'CSS', 'Firebase'],
+              "description":['Completed whole Facebook home page design with CSS', 'Used Material-ui icon with custom design', 'Facebook login page design and added google login', 'Added StateProvider, reducer, Facebook widget iframe'],
               "image": "Facebook.png",
-              "url": "https://gracious-wiles-cb6d6f.netlify.app/"
+              "url": "https://gracious-wiles-cb6d6f.netlify.app/",
+              "github": "https://github.com/CrazyPythonLover1/facebook-clone-ReactJS",
             },
             {
-              "titleHead": "Clinic Management",
+              "titleHead": "Clinic Management System",
               "title": "Doctors Portal -A Clinic Management ",
               "category": "Doctors Portal built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Bootstrap, Firebase Authentication, React-calendar, Popup Modal.",
               "technology": ['React.js', 'Node.js', 'express.js', 'MongoDB', 'Material-ui', 'Bootstrap', 'CSS', 'Firebase'],
+              "description": ['Users can choose doctors and make an appointment, can see own appointment list by data', ' Admin can view all patient’s appointments, all patients, today’s appointment, pending appointment, prescription status and add doctors.', 'Admin can update, approve, cancel appointment status.', ' React Calendar with custom design, React Hook Form, PopUp Dialog, custom select design'  ],
+              
               "image": "doctors-portal.png",
-              "url": "https://doctors-portal-mern-stack.web.app/"
+              "url": "https://doctors-portal-mern-stack.web.app/",
+              "github": "https://github.com/CrazyPythonLover1/Doctors-Portal-Client-Site"
             },
             {
-              "titleHead": "An Event Management",
-              "title": "Volunteer Network -An Event Management S",
+              "titleHead": "Event Management System",
+              "title": "Volunteer Network -An Event Management",
               "category": "Volunteer Network built with MERN Stack (MongoDB, ExpressJS, ReactJS, NodeJS), Bootstrap, Material-ui, Firebase Authentication.",
-              
+              "technology": ['React.js', 'Node.js', 'express.js', 'MongoDB', 'Material-ui', 'Bootstrap', 'CSS', 'Firebase'],
+              "description": ['Users can register for the Event and see their own registered list and cancel the registered event','Admin can see all user’s registered lists, delete the registration and add Event', 'Google Login, firebase hosting, context API, dynamic color design ' ],
               "image": "volunteer.png",
-              "url": "https://volunteer-network-59df7.web.app/"
+              "url": "https://volunteer-network-59df7.web.app/",
+              "github":"https://github.com/CrazyPythonLover1/Volunteer-Network-Client-Site/tree/main/volunteer-nerwork-client-site",
             }
           ],
           "testimonials": [
