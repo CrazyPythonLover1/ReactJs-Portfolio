@@ -172,6 +172,7 @@ const About = () => {
                                     <span> PostgreSQL </span>
                                     <span> Linux Shared Hosting </span>
                                     <span> Chrome Dev Tool </span>
+                                    <span> WordPress </span>
 
                                 </div>
 
@@ -205,6 +206,7 @@ const About = () => {
                                 <div className="familiar-skills my-2 pb-3">
                                     <span> Data Structure </span>
                                     <span> Algorithm  </span>
+                                    <span> Sass  </span>
                                     <span> React Native  </span>
                                     <span> JQuery  </span>
                                     <span> Django REST FRAMEWORK </span>

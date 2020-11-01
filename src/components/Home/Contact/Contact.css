@@ -10,10 +10,14 @@
     margin: 10px 0;
     border-radius: 5px;
     outline-width: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #262335;
 }
 
 .contact-form input::placeholder, textarea::placeholder{
-    color: #bbbbbb;;
+    color: #bbbbbb;
+    padding-left: 10px;
 }
 
 .submit-button:hover {
