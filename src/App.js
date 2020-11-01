@@ -10,6 +10,7 @@ import Home from './components/Home/Home/Home';
 import About from './components/About/About';
 import Work from './components/Work/Work';
 import ContactPage from './components/ContactPage/ContactPage';
+import BlogPage from './components/BlogPage/BlogPage';
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
 
           <Route path="/contact">
             <ContactPage/>
+          </Route>
+
+          <Route path="/blog">
+            <BlogPage/>
           </Route>
         </Switch>
       </div>
