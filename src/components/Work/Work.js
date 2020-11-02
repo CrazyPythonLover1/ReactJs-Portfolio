@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Work.css';
 import Navbar from '../Shared/Navbar';
 import { makeStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
-import ButtonBase from '@material-ui/core/ButtonBase';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkIcon from '@material-ui/icons/Link';
 
 import resumeData from '../../fakeData/resumeData';
 import Footer from '../Home/Footer/Footer';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 
@@ -30,6 +31,9 @@ const useStyles = makeStyles((theme) => ({
 
 
 const Work = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000,offset:180,});
+    }, []);
 
     const projects = resumeData[0].projects;
 
@@ -45,32 +49,7 @@ const Work = () => {
 
                     {
                         projects.map(project => {
-                            // return <Grid container spacing={0}>
-                            //             <Grid item xs={12} sm={5}  >
-                            //                 <ButtonBase className={classes.image}>
-                            //                     <img className={`grid-image ${classes.img}`} alt="complex" src={require(`../../images/portfolio/${project.image}`)} />
-                            //                 </ButtonBase>
-                            //             </Grid>
-                                        
-                            //             <Grid item xs={12} sm={7} className="grid-body" >
-                            //                <h3> {project.titleHead} </h3>
-                            //                <ul style={{ display: 'flex', flexDirection: 'column'}}>
-                            //                    {project.description?.map(des=> <li> {des} </li>)}
-                            //                </ul>
-                            //                <h6 className="technology"> {project.technology.map(tech=> <span> {tech} </span>)}
-                            //                </h6>
-                            //                <div className="button-container">
-                            //                <div className="button-group"> 
-                            //                 <a href="https://github.com/CrazyPythonLover1"> <GitHubIcon/> </a> 
-                            //                 <a href={project.url} className="link-icon"> <LinkIcon/> </a>
-                            //                </div>
-                            //                </div>
-                                           
-                                          
-                            //             </Grid>
-                            //         </Grid>
-
-                            return  <div className="project-card">
+                            return  <div data-aos={project.animation} className="project-card">
                              <img className={`grid-image ${classes.img}`} alt="complex" src={require(`../../images/portfolio/${project.image}`)} />
                             <div>
                             <h3> {project.titleHead} </h3>

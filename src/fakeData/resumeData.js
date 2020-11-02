@@ -80,6 +80,7 @@ const resumeData =[
               "image": "Creative-agency.png",
               "url": "https://creative-agency-mern-stack.web.app/",
               "github": "https://github.com/CrazyPythonLover1/CREATIVE-AGENCY-CLIENT",
+              
             },
             {
               "titleHead": "Amazon Clone",
@@ -90,6 +91,7 @@ const resumeData =[
               "description":['Created add to cart, count selected cart item with reducer', " Google sign in method with firebase & designed with CSS",' selected item list and remove the item to the cart & count price with reducer ', 'Check out functionality with stripe'],
               "url": "https://nifty-visvesvaraya-e8d8ba.netlify.app/",
               "github":"https://github.com/CrazyPythonLover1/Amazon-Clone-React.js",
+              "animation": "fade-left"
             },
             {
               "titleHead": "Facebook UI Clone",
@@ -100,6 +102,7 @@ const resumeData =[
               "image": "Facebook.png",
               "url": "https://gracious-wiles-cb6d6f.netlify.app/",
               "github": "https://github.com/CrazyPythonLover1/facebook-clone-ReactJS",
+              "animation": "fade-right"
             },
             {
               "titleHead": "Clinic Management System",
@@ -110,7 +113,8 @@ const resumeData =[
               
               "image": "doctors-portal.png",
               "url": "https://doctors-portal-mern-stack.web.app/",
-              "github": "https://github.com/CrazyPythonLover1/Doctors-Portal-Client-Site"
+              "github": "https://github.com/CrazyPythonLover1/Doctors-Portal-Client-Site",
+              "animation": "fade-left"
             },
             {
               "titleHead": "Event Management System",
@@ -121,6 +125,7 @@ const resumeData =[
               "image": "volunteer.png",
               "url": "https://volunteer-network-59df7.web.app/",
               "github":"https://github.com/CrazyPythonLover1/Volunteer-Network-Client-Site/tree/main/volunteer-nerwork-client-site",
+              "animation": "fade-right"
             }
           ],
           "testimonials": [
