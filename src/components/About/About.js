@@ -37,8 +37,8 @@ const About = () => {
                                 />
                             </span>
                         </h3>
-                        <p className="text-justify aboutpage-text">I am a professional Web Developer with 2+ years of experience. I love to write code everyday and solve web based problem. I can create full-stack web app with React and Node.js. Also I can create Django Web App. I successfully completed 4 project at Frelancer. <br />
-                        Beside Web development job, I would like to be a ML Engineer. </p>
+                        <p className="text-justify aboutpage-text">I am a professional Web Developer with 2+ years of experience. I love to write code everyday and solve web based problem. I can create full-stack web app with React and Node.js. Also I can create Django Web App. I successfully completed 4 project at Frelancer. 
+                        Besides a web development job, I would like to be a ML Engineer. </p>
 
                         <div className="contact-details">
                             <h2>Contact Details</h2>
