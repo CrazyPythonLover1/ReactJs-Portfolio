@@ -34,7 +34,7 @@ const Header = () => {
                              </span>
                         </h1>
                         <div className="status"><ul> <li> Web Developer</li> <li> Crazy React & Python Lover </li></ul></div>
-                        <h3><span> React || Django Developer && Web Developer @AnsWarIT.</span> A self-taught software developer with deep interest in javascript, Python & AI.  </h3>
+                        <h3><span> React || Django Developer && Web Developer @AnsWarIT.</span> A self-taught software developer with deep interest in javascript, Python & ML.  </h3>
                         
                         <div className="social">
                             <a href="https://github.com/CrazyPythonLover1"> <GitHubIcon/> </a>
