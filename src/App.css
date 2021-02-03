@@ -1,0 +1,75 @@
+
+h1, h2, h3, h4, h5, h6 {
+ font-family: 'opensans-bold', sans-serif;
+  font-weight: normal;
+}
+
+.button{
+  width: 100px;
+  border: 2px solid #00ffd5;
+  border-radius: 5px;
+  padding: 5px 20px 7px 20px !important;
+}
+.button:hover{
+  background: #00ffd5;
+  color: #000 !important;
+}
+.link:hover{
+  text-decoration: none !important;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner-text .headline{
+      font: 60px/1.1em 'opensans-bold', sans-serif;
+  }
+  .navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #241b2f;
+    box-shadow: 0px 0px 5px 2px #0f0815;
+    
+  }
+  .header-col{
+    text-align: center;
+  }
+
+  .social a {
+   margin: 0 5px !important;
+}
+
+.social .MuiSvgIcon-root{
+   font-size: 24px !important;
+}
+
+
+#testimonials h1 span{ display: inline-block !important; padding-bottom: 2rem;}
+
+
+#testimonials h1 .MuiSvgIcon-root{
+  display: none;
+}
+
+
+  
+}
+
+
+@media only screen and (max-width: 330px) {
+  .brand-name{
+    font-size: 1rem;
+  }
+
+ 
+
+  .download-button{
+    font-size: .7rem;
+  }
+
+  .social a {
+    margin: 0 2px !important;
+ }
+ 
+  
+}

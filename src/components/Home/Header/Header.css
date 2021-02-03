@@ -1,0 +1,108 @@
+header{
+    position: relative;
+    top: 0;
+    height: 800px;
+    min-height: 500px;
+    width:100%;
+    background: #262335 url('../../../images/header-background.jpg') no-repeat top center ;
+    background-size: cover;
+    -webkit-background-size: cover !important;
+}
+
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+
+
+.banner-text{
+    text-align: center;
+    color: white;
+}
+
+.banner-text .headline{
+    font: 90px/1.1em 'opensans-bold', sans-serif;
+    letter-spacing: -2px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+    color: white;
+}
+.animated-text{
+    color: #00ffd5;
+    font-size: 3rem;
+    line-height: 1;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content:space-evenly;
+    color: #00ffd5;
+}
+
+.banner-text h3 {
+    font: 18px/1.9em, serif;
+    color: #c7c7c7;
+    margin: 0 auto;
+    width: 100%;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+ }
+
+ /*  Header Social Links */
+
+ .social{
+     margin: 30px 0;
+     padding: 0;
+     text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+     
+ }
+
+ .social a {
+     display: inline-block;
+    margin: 0 15px;
+    padding: 0;
+    color: white;
+}
+
+.MuiSvgIcon-root{
+    font-size: 30px !important;
+
+}
+ .social .MuiSvgIcon-root:hover,a:hover{
+    text-decoration: none;
+    color: #00ffd5;
+ }
+
+ @media only screen and (max-width: 1350px){
+    .animated-text{
+        font-size: 2.6rem;
+        line-height: 1;
+    }
+ }
+
+ @media only screen and (max-width: 969px){
+    .animated-text{
+        font-size: 2rem;
+        line-height: 1;
+    }
+ }
+
+
+
+@media only screen and (max-width: 556px) {
+    .banner-text .headline{
+        font: 40px/1.1em 'opensans-bold', sans-serif;
+    }
+    .animated-text{
+        font-size: 1.2rem;
+        line-height: 1;
+    }
+
+    ul{
+        display: none;
+    }
+    
+}

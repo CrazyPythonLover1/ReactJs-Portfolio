@@ -1,0 +1,75 @@
+.navbar-container {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+.navbar-wrap{
+    padding-left: 40px;
+    padding-right: 40px;
+    z-index: 1;
+    
+}
+
+.scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #241b2f;
+    box-shadow: 0px 0px 5px 2px #0f0815; 
+  }
+
+  .brand-name{
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing:2px;
+      word-spacing: 5px;
+      font-family: 'Lemon', cursive;
+  }
+
+.navbar a{
+    color: white !important;
+}
+
+.navbar a:hover{
+    color: #00ffd5 !important;
+}
+
+
+.selected{
+    border-bottom: 2px solid #00ffd5 ;
+    color: #00ffd5 !important;
+}
+
+
+.navbar-toggler {
+    border-color: #00ffd5;
+  } 
+
+.toggle-btn-color.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+
+.nav-button{
+    color: white !important;
+    width: 100px;
+    border: 2px solid #00ffd5;
+    border-radius: 5px;
+    padding: 5px 20px 7px 20px !important;
+  }
+.nav-button:hover{
+    background: #00ffd5;
+    color: #000 !important;
+    font-weight: bold;
+  }
+
+@media only screen and (min-width: 1024px) {
+    .navbar-wrap{
+        margin: auto;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+}
