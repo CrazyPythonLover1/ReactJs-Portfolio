@@ -1,5 +1,5 @@
 #testimonials{
-    background: #262335 url(../../../images/testimonials-bg.jpg) no-repeat center ;
+    background: linear-gradient(#241b2fda, #241b2fe0), url(../../../images/testimonials-bg.jpg) no-repeat center ;
     background-size: cover;
     background-attachment: fixed;
     position: relative;

@@ -4,7 +4,8 @@ header{
     height: 800px;
     min-height: 500px;
     width:100%;
-    background: #262335 url('../../../images/header-background.jpg') no-repeat top center ;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../../images/header-background.jpg') no-repeat top center  ;
+    /* #262335  */
     background-size: cover;
     -webkit-background-size: cover !important;
 }

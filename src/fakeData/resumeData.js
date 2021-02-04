@@ -1,6 +1,6 @@
 const resumeData =[
     {
-        "skillmessage": " This is my core skill that I have learnt for 2 years. A self-taught Software Developer ",
+        "skillmessage": " This is my core skill that I have learnt for 2 years. As self-taught Software Developer ",
         "education": [
           {
             "school": "Habibullah Bahar University ",

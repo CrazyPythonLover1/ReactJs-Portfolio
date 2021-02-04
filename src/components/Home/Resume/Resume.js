@@ -10,14 +10,14 @@ const Resume = () => {
         return <div key={education.school}>
             <h3> {education.school} </h3>
             <p className="info"> {education.degree}<span>&bull;</span> <em className="date"> {education.graduated} </em> </p>
-            <p> {education.description} </p> 
+            <p className="resume__desc"> {education.description} </p> 
         </div>
     })
     const work = resume.work.map(work=> {
         return <div key={work.company}>
             <h3> {work.company} </h3>
             <p className="info"> {work.title}<span>&bull;</span><em className="date"> {work.years} </em> </p>
-            <p> {work.description} </p>
+            <p className="resume__desc" > {work.description} </p>
         </div>
     })
 
@@ -66,7 +66,7 @@ const Resume = () => {
                     </div>
 
                     <div className="col-md-9 main-col">
-                        <p className="text-center pb-3 pt-3">
+                        <p className="text-center pb-3 pt-3 resume__desc">
                             {skillmessage}
                         </p>
                         <div className="bars">

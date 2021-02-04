@@ -48,7 +48,7 @@
 #resume .info {
     font-size: 1rem;
     font-style: italic;
-    font-family: 'librebaskerville-italic', serif;
+    font-family: 'opensans', sans-serif;
     color: rgb(95, 103, 110);
     margin-bottom: 18px;
     margin-top: 9px;
@@ -74,6 +74,15 @@
 /*  Skills Bar */
 /* ----------------------- */
 
+.skill .resume__desc {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: 'oepensans-semibold', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #95a3a3;
+}
 
 .bars{
     width: 95%;
